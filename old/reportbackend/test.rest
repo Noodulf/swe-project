@@ -1,0 +1,40 @@
+# POST http://localhost:3000/orders
+# Content-Type: application/json
+# x-role: sales-clerk
+
+
+# {
+#   "customerName": "John Doe"
+# }
+
+
+# POST http://localhost:3000/orders/2a2171b7-24e2-4a73-abca-ffad93f69240/items
+# Content-Type: application/json
+# x-role: sales-clerk
+
+# {
+#   "itemId": "item-002",
+#   "quantity": 4
+# }
+
+# POST http://localhost:3000/bills
+# Content-Type: application/json
+# x-role: sales-clerk
+
+# {
+#   "tempId": "2a2171b7-24e2-4a73-abca-ffad93f69240"
+# }
+
+GET http://localhost:3000/menu/menu
+Content-Type: application/json
+
+
+POST http://localhost:3000/menu
+Content-Type: application/json
+x-role: manager
+
+{
+  "itemName": "item-001",
+  "action": "delete",
+  "price": 10
+}

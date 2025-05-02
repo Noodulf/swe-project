@@ -1,0 +1,18 @@
+{
+  "development": {
+    "username": "root",
+    "password": "password",
+    "database": "restaurant_db",
+    "host": "localhost",
+    "dialect": "mysql",
+    "logging": false
+  },
+  "test": {
+    "username": "root",
+    "password": "",
+    "database": "restaurant_db",
+    "host": "localhost",
+    "dialect": "mysql",
+    "logging": false
+  }
+}

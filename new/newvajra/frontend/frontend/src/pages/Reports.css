@@ -1,0 +1,164 @@
+/* reports.css */
+
+/* General Page Layout */
+.reports-page {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    padding: 32px 0;
+  }
+  
+  .reports-container {
+    background: #fff;
+    border-radius: 12px;
+    padding: 32px;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+  
+  .report-header {
+    background-color: #9b5d3d; /* Brown header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5em;
+    border-radius: 8px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .back-btn {
+    background-color: #9b5d3d; /* Brown button */
+    color: white;
+    padding: 10px 15px;
+    font-size: 1.2em;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .back-btn:hover {
+    background-color: #c89b4f; /* Golden hover effect */
+  }
+  
+  .report-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .report-controls select,
+  .report-controls input,
+  .generate-btn {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .report-controls select {
+    background-color: #fff;
+    width: 200px;
+  }
+  
+  .generate-btn {
+    background-color: #c89b4f; /* Golden button */
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 220px;
+  }
+  
+  .generate-btn:hover {
+    background-color: #9b5d3d; /* Brown on hover */
+  }
+  
+  .report-table-wrapper {
+    margin-top: 40px;
+    width: 80%;
+  }
+  
+  .report-subheader {
+    font-size: 1.8em;
+    color: #9b5d3d;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .report-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .report-table th,
+  .report-table td {
+    padding: 12px;
+    text-align: center;
+    font-size: 1.1em;
+    border: 1px solid #ddd;
+  }
+  
+  .report-table th {
+    background-color: #c89b4f; /* Golden header */
+    color: white;
+  }
+  
+  .report-table tr:hover {
+    background-color: #ffedb3; /* Light yellow hover effect */
+  }
+  
+  .footer-image {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    border-radius: 8px;
+  }
+  
+  .bills-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 24px;
+  }
+  
+  .bills-table th, .bills-table td {
+    padding: 12px 10px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+  }
+  
+  .bills-table th {
+    background: #f5e9c9;
+    font-weight: bold;
+  }
+  
+  .bills-table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  @media (max-width: 768px) {
+    .reports-page {
+      padding: 15px;
+    }
+  
+    .report-controls select,
+    .report-controls input,
+    .generate-btn {
+      width: 100%;
+    }
+  
+    .report-table-wrapper {
+      width: 100%;
+    }
+  
+    .report-subheader {
+      font-size: 1.6em;
+    }
+  }
+  

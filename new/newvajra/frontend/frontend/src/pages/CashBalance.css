@@ -1,0 +1,49 @@
+.cash-page {
+    font-family: 'Playfair Display', serif;
+    background-color: #fffaf3;
+    color: #4e342e;
+  }
+  
+  .cash-header {
+    color: #6d4c41;
+    margin-bottom: 1rem;
+  }
+  
+  .cash-summary h3 {
+    background-color: #ffe0b2;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    color: #4e342e;
+  }
+  
+  .invoice-heading {
+    margin-top: 2rem;
+  }
+  
+  .cash-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: #fff8e1;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .cash-table th,
+  .cash-table td {
+    padding: 12px;
+    border: 1px solid #d7ccc8;
+    text-align: center;
+  }
+  
+  .status-badge.paid {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .status-badge.unpaid {
+    color: red;
+    font-weight: bold;
+  }
+  

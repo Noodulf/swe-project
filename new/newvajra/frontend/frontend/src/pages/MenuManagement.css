@@ -1,0 +1,88 @@
+.menu-title {
+    font-size: 2rem;
+    color: #6d4c41;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .menu-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .menu-card {
+    background: #fff8e1;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 8px 24px rgba(160, 130, 100, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+  }
+  
+  .menu-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 32px rgba(160, 130, 100, 0.25);
+  }
+  
+  .menu-card h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: #5d4037;
+  }
+  
+  .menu-card p {
+    font-weight: bold;
+    color: #8d6e63;
+  }
+  .menu-table tbody tr {
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .menu-table tbody tr:hover {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transform: scale(1.01);
+    background-color: #fff3e0;
+  }
+  
+  .add-item-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fffaf3;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 6px 18px rgba(160, 130, 100, 0.15);
+  }
+  
+  .add-item-form h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #6d4c41;
+  }
+  
+  .add-item-form input {
+    margin-bottom: 1rem;
+  }
+  
+  .add-item-form button {
+    width: 100%;
+  }
+  /* Fade in animation */
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .menu-page {
+    animation: fadeInUp 0.6s ease-in-out;
+  }
+  

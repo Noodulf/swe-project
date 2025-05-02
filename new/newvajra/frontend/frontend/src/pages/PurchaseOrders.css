@@ -1,0 +1,107 @@
+/* PurchaseOrders.css */
+
+.po-header {
+    margin-bottom: 1rem;
+    color: #6d4c41;
+  }
+  
+  .po-table {
+    width: 100%;
+    background-color: #fff8e1;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+  }
+  
+  .po-table th,
+  .po-table td {
+    padding: 12px;
+    border: 1px solid #d7ccc8;
+    text-align: left;
+  }
+  
+  .po-table thead {
+    background-color: #ffe0b2;
+    color: #4e342e;
+  }
+  
+  .status-badge {
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    font-weight: bold;
+  }
+  
+  .status-badge.approved {
+    background-color: #c8e6c9;
+    color: #2e7d32;
+  }
+  
+  .status-badge.pending {
+    background-color: #ffecb3;
+    color: #f57c00;
+  }
+  
+  .approve-btn {
+    padding: 6px 12px;
+    background-color: #a1887f;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .approve-btn:hover {
+    background-color: #8d6e63;
+  }
+  
+  .back-btn {
+    background-color: #bcaaa4;
+    margin-bottom: 1rem;
+  }
+
+  .footer-image {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    margin-top: 2rem;
+    border-radius: 16px;
+    border-top: 3px solid #a1887f;
+    box-shadow: 0 -6px 18px rgba(165, 116, 66, 0.4);
+    animation: fadeIn 1.5s ease-in-out;
+    opacity: 0.95;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 -8px 24px rgba(204, 153, 102, 0.5);
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .footer-wrapper {
+    position: relative;
+    width: 100%;
+  }
+  
+  .gold-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    background: linear-gradient(to top, rgba(255, 223, 186, 0.3), transparent);
+    pointer-events: none;
+  }
+  
+  
+  

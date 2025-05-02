@@ -1,0 +1,49 @@
+/* src/pages/Register.css */
+.register-page {
+    padding: 2rem;
+    background-color: #fffaf3;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .register-container {
+    width: 400px;
+    background: #fff8e1;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #6d4c41;
+  }
+  
+  .register-container input,
+  .register-container select {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .register-btn {
+    width: 100%;
+    background-color: #a1887f;
+    color: #fffaf3;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-btn:hover {
+    background-color: #8d6e63;
+  }
+  

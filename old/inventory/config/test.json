@@ -1,0 +1,8 @@
+{
+  "username": "root",
+  "password": "",
+  "database": "inventory_management_test",
+  "host": "127.0.0.1",
+  "dialect": "mysql",
+  "logging": false
+} 

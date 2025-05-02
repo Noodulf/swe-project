@@ -1,0 +1,55 @@
+.bill-page {
+    padding: 2rem;
+    background-color: #fffdf5;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h2 {
+    color: #6b3e26;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  th, td {
+    padding: 0.75rem;
+    border: 1px solid #d2b48c;
+    text-align: center;
+    color: #4b2e1e;
+  }
+  
+  th {
+    background-color: #f0e4d7;
+    font-weight: bold;
+  }
+  
+  .total-amount {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #6b3e26;
+    text-align: right;
+  }
+  
+  .back-btn {
+    margin-top: 2rem;
+    background-color: #444;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .back-btn:hover {
+    background-color: #2f2f2f;
+  }
+  
